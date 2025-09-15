@@ -37,3 +37,14 @@ Tech Stack
 * SQLite via sqlite3
 
 * HTML/CSS templates (Jinja)
+
+Project Structure
+
+flask-todo/
+├─ app.py
+├─ templates/
+│  ├─ base.html
+│  └─ index.html
+├─ requirements.txt
+└─ README.md
+
