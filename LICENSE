@@ -1,0 +1,9 @@
+
+# How to commit it
+```bash
+cd ~/github/flask-todo
+git pull --rebase origin main
+printf "%s\n" '<PASTE THE README ABOVE EXACTLY>' > README.md
+git add README.md
+git commit -m "Docs: clean README, correct path, add features/structure"
+git push
